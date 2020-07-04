@@ -1,0 +1,17 @@
+Export log for : RFD900x.Rep
+AddingPadStyle (Default)
+AddingPadStyle P:EX126Y157D1381
+AddingPadStyle P:SX59Y59D351
+AddingPadStyle P:EX59Y59D351
+Adding ViaStyle (Default)
+Adding TextStyle (Default)
+Adding TextStyle T:H60W10
+Adding TextStyle T:H50W8
+Adding PatternDef RFD900X_HS_U
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+Adding CompDef RFD900X_HS_U
+ 
+EndLog

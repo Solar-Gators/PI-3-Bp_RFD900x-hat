@@ -1,0 +1,70 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Pit-RFD\Pit-RFD.PcbDoc
+Date     : 6/28/2020
+Time     : 6:03:27 PM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+   Violation between Clearance Constraint: (0.113mm < 0.254mm) Between Pad RF1-(3.005mm,-1.778mm) on Multi-Layer And Polygon Region (68 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.113mm < 0.254mm) Between Pad RF1-(3.005mm,-1.778mm) on Multi-Layer And Polygon Region (75 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (0.113mm < 0.254mm) Between Pad RF1-(40.26mm,-13.85mm) on Multi-Layer And Polygon Region (68 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.113mm < 0.254mm) Between Pad RF1-(40.26mm,-13.85mm) on Multi-Layer And Polygon Region (75 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (0.104mm < 0.254mm) Between Pad RF1-(40.35mm,10.322mm) on Multi-Layer And Polygon Region (68 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.113mm < 0.254mm) Between Pad RF1-(40.35mm,10.322mm) on Multi-Layer And Polygon Region (75 hole(s)) Top Layer 
+Rule Violations :6
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad J1-41(3.47mm,24.77mm) on Multi-Layer Actual Hole Size = 2.7mm
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad J1-42(61.47mm,24.77mm) on Multi-Layer Actual Hole Size = 2.7mm
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad J1-43(61.47mm,-24.23mm) on Multi-Layer Actual Hole Size = 2.7mm
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad J1-44(3.47mm,-24.23mm) on Multi-Layer Actual Hole Size = 2.7mm
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad RF1-(3.005mm,-1.778mm) on Multi-Layer Actual Slot Hole Width = 2.7mm
+   Violation between Hole Size Constraint: (3.5mm > 2.54mm) Pad RF1-(3.005mm,-1.778mm) on Multi-Layer Actual Slot Hole Height = 3.5mm
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad RF1-(40.26mm,-13.85mm) on Multi-Layer Actual Slot Hole Width = 2.7mm
+   Violation between Hole Size Constraint: (3.5mm > 2.54mm) Pad RF1-(40.26mm,-13.85mm) on Multi-Layer Actual Slot Hole Height = 3.5mm
+   Violation between Hole Size Constraint: (2.7mm > 2.54mm) Pad RF1-(40.35mm,10.322mm) on Multi-Layer Actual Slot Hole Width = 2.7mm
+   Violation between Hole Size Constraint: (3.5mm > 2.54mm) Pad RF1-(40.35mm,10.322mm) on Multi-Layer Actual Slot Hole Height = 3.5mm
+Rule Violations :10
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.219mm < 0.254mm) Between Pad RF1-(3.005mm,-1.778mm) on Multi-Layer And Track (0.73mm,-16.785mm)(0.73mm,13.237mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.219mm]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.222mm < 0.254mm) Between Text "1" (59.36mm,8.819mm) on Top Overlay And Track (55.042mm,8.395mm)(60.122mm,8.395mm) on Top Overlay Silk Text to Silk Clearance [0.222mm]
+   Violation between Silk To Silk Clearance Constraint: (0.052mm < 0.254mm) Between Text "15" (59.36mm,-14.083mm) on Top Overlay And Track (55.042mm,-11.925mm)(60.122mm,-11.925mm) on Top Overlay Silk Text to Silk Clearance [0.052mm]
+   Violation between Silk To Silk Clearance Constraint: (0.052mm < 0.254mm) Between Text "16" (56.82mm,-14.083mm) on Top Overlay And Track (55.042mm,-11.925mm)(60.122mm,-11.925mm) on Top Overlay Silk Text to Silk Clearance [0.052mm]
+   Violation between Silk To Silk Clearance Constraint: (0.222mm < 0.254mm) Between Text "2" (56.82mm,8.819mm) on Top Overlay And Track (55.042mm,8.395mm)(60.122mm,8.395mm) on Top Overlay Silk Text to Silk Clearance [0.222mm]
+Rule Violations :4
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+   Violation between Height Constraint: Component J1-RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D (8.34mm,23.5mm) on Top Layer Actual Height = 41.438mm
+Rule Violations :1
+
+
+Violations Detected : 22
+Waived Violations : 0
+Time Elapsed        : 00:00:00

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\Pit-RFD\Pit-RFD.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pit-rfd-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pit-rfd-slotholes.txt|DrillLayers=gtl,gbl
